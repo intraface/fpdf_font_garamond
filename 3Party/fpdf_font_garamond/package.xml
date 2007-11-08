@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.6.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>fpdf_font_garamond</name>
+ <channel>public.intraface.dk</channel>
+ <summary>Installs the garamond font</summary>
+ <description>The garamond font</description>
+ <lead>
+  <name>Lars Olesen</name>
+  <user>lsolesen</user>
+  <email>lars@legestue.net</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Sune Jensen</name>
+  <user>sune.t.jensen</user>
+  <email>sj@sunet.dk</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-11-08</date>
+ <time>14:04:37</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD license</license>
+ <notes>* initial releas</notes>
+ <contents>
+  <dir baseinstalldir="fpdf" name="/">
+   <dir name="font">
+    <file name="font.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="gara.afm" role="data">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="gara.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="GARA.TTF" role="data">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="gara.z" role="data">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="garabd.afm" role="data">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="garabd.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="GARABD.TTF" role="data">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="garabd.z" role="data">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="garait.afm" role="data">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="garait.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="GARAIT.TTF" role="data">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="garait.z" role="data">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+   </dir> <!-- //ont -->
+   <file name="generate_package_xml.php" role="php">
+    <tasks:replace from="@package-version@" to="version" type="package-info" />
+   </file>
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.5.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-11-08</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD license</license>
+   <notes>* initial releas</notes>
+  </release>
+ </changelog>
+</package>
